@@ -21,4 +21,12 @@ Serial.print(inches);
 Serial.print("in");
 Serial.print(Cm);
 Serial.println("cm");
+  
+  if(inches<20){
+    //Do somthing here
+    //ex- digitalWrite(1,HIGH);
 }
+  else{
+    //Do somthing here
+    //ex- digitalWrite(1,LOW);
+  }
